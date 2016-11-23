@@ -1,0 +1,26 @@
+{
+  "name": "SharedTodo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "todoListID": {
+      "type": "string",
+      "required": true
+    },
+    "recipientEmail": {
+      "type": "string",
+      "required": true
+    },
+    "senderID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
