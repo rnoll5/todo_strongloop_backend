@@ -40,11 +40,11 @@
     "dataSource": "mongo",
     "public": true
   },
-  "TodoList": {
+  "SharedTodo": {
     "dataSource": "mongo",
     "public": true
   },
-  "SharedTodo": {
+  "ToDoList": {
     "dataSource": "mongo",
     "public": true
   }
